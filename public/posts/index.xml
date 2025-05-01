@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Sehwan&#39;s Dev Blog</title>
+    <link>http://localhost:1313/dev-blog/posts/</link>
+    <description>Recent content in Posts on Sehwan&#39;s Dev Blog</description>
+    <image>
+      <title>Sehwan&#39;s Dev Blog</title>
+      <url>http://localhost:1313/dev-blog/images/papermod-cover.png</url>
+      <link>http://localhost:1313/dev-blog/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en</language>
+    <copyright>PaperMod Contributors</copyright>
+    <lastBuildDate>Thu, 01 May 2025 00:22:05 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/dev-blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Open source design system v1</title>
+      <link>http://localhost:1313/dev-blog/posts/open_source_design_system_v1/</link>
+      <pubDate>Thu, 01 May 2025 00:22:05 -0300</pubDate>
+      <guid>http://localhost:1313/dev-blog/posts/open_source_design_system_v1/</guid>
+      <description>&lt;h3 id=&#34;react와-panda-css를-선택하기까지&#34;&gt;React와 Panda CSS를 선택하기까지&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;인트로&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;DaleUI 디자인 시스템 프로젝트 소개 (한글 사용자를 위한 오픈소스 디자인 시스템 목표)&lt;/li&gt;
+&lt;li&gt;기존 디자인 시스템이 있음에도 새로운 시스템을 만드는 이유 (DaleUI만의 차별점 또는 필요성)&lt;/li&gt;
+&lt;li&gt;디자인 시스템의 성공을 좌우하는 기술 스택 선택의 중요성&lt;/li&gt;
+&lt;li&gt;이 글 (1부)에서는 코어 프레임워크와 스타일링 솔루션이라는 가장 근본적인 기술 결정 과정을 다룰 것을 예고&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;첫 번째 갈림길: 웹 컴포넌트 vs. React&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;초기 고려: 웹 컴포넌트 (Web Components)
+&lt;ul&gt;
+&lt;li&gt;왜 웹 컴포넌트를 먼저 고려했는가? (프레임워크 독립성, 표준 기술, 장기적인 관점)&lt;/li&gt;
+&lt;li&gt;고려 과정에서 느낀 웹 컴포넌트의 장단점 (장점: 호환성 / 단점: 개발 생태계, DX 등)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;방향 전환: React 도입 결정
+&lt;ul&gt;
+&lt;li&gt;웹 컴포넌트 대신 React를 사용하기로 결정한 이유 (개발 생산성, 풍부한 생태계, 팀의 경험, 커뮤니티 지원)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;코어 결정: React + TypeScript&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Achieving the 40% Reduction in Page Load Times</title>
+      <link>http://localhost:1313/dev-blog/posts/achieving-the-40-reduction-in-page-load-times/</link>
+      <pubDate>Sun, 07 Apr 2024 23:01:07 -0300</pubDate>
+      <guid>http://localhost:1313/dev-blog/posts/achieving-the-40-reduction-in-page-load-times/</guid>
+      <description>&lt;h2 id=&#34;initial-problem&#34;&gt;Initial Problem:&lt;/h2&gt;
+&lt;p&gt;The Yeti dashboard, displaying potentially large datasets (the &amp;gt;100k transaction records), suffered from slow initial load times and sluggish interactions. This was due to a combination of large JavaScript bundles, inefficient data fetching, and unoptimized rendering.&lt;/p&gt;
+&lt;h2 id=&#34;actions-taken&#34;&gt;Actions Taken:&lt;/h2&gt;
+&lt;h3 id=&#34;leveraging-nextjs-app-router--server-components&#34;&gt;Leveraging Next.js App Router &amp;amp; Server Components:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Before: Significant portions of the dashboard might have been rendered client-side, requiring large JS bundles and client-side data fetching (useEffect hooks fetching large amounts of data).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How We Achieved a 35% API Performance Gain in Our PoC</title>
+      <link>http://localhost:1313/dev-blog/posts/how-we-achieved-a-35-api-performance-gain-in-our-poc/</link>
+      <pubDate>Fri, 13 Jan 2023 20:51:45 -0300</pubDate>
+      <guid>http://localhost:1313/dev-blog/posts/how-we-achieved-a-35-api-performance-gain-in-our-poc/</guid>
+      <description>&lt;p&gt;Our project was a used car search and comparison platform. Being a PoC, it wasn&amp;rsquo;t yet facing heavy user load. However, during our internal testing and validation phases, we hit a snag: certain API calls were unexpectedly sluggish under specific conditions. This wasn&amp;rsquo;t ideal, even for a PoC, as it hampered testing efficiency and could misrepresent the potential user experience during demos. The goal was clear – we needed to optimize.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
